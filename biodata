@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Rahul Sharma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table td {
+            padding: 10px 5px;
+            vertical-align: top;
+        }
+        .label {
+            font-weight: bold;
+            width: 200px;
+            color: #333;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Biodata</h1>
+
+    <!-- Personal Details -->
+    <h2>Personal Details</h2>
+    <table>
+        <tr><td class="label">Name:</td><td>Rahul Sharma</td></tr>
+        <tr><td class="label">Date of Birth:</td><td>15 August 1998</td></tr>
+        <tr><td class="label">Gender:</td><td>Male</td></tr>
+        <tr><td class="label">Nationality:</td><td>Indian</td></tr>
+        <tr><td class="label">Religion:</td><td>Hindu</td></tr>
+        <tr><td class="label">Marital Status:</td><td>Single</td></tr>
+    </table>
+
+    <!-- Contact Details -->
+    <h2>Contact Details</h2>
+    <table>
+        <tr><td class="label">Address:</td><td>24, Green Park Colony, Pune, Maharashtra</td></tr>
+        <tr><td class="label">Phone:</td><td>+91 9876543210</td></tr>
+        <tr><td class="label">Email:</td><td>rahul.sharma@example.com</td></tr>
+    </table>
+
+    <!-- Education -->
+    <h2>Educational Qualification</h2>
+    <ul>
+        <li>B.Tech in Computer Science – Pune University (2019)</li>
+        <li>Higher Secondary (12th) – Kendriya Vidyalaya (2015)</li>
+    </ul>
+
+    <!-- Work Experience -->
+    <h2>Work Experience</h2>
+    <ul>
+        <li>Software Developer at Infosys (2020–Present)</li>
+        <li>Web Developer Intern at TCS (2019–2020)</li>
+    </ul>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java</li>
+        <li>Git & GitHub</li>
+    </ul>
+
+    <!-- Languages -->
+    <h2>Languages Known</h2>
+    <ul>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Marathi</li>
+    </ul>
+
+    <!-- Hobbies -->
+    <h2>Hobbies / Interests</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+    </ul>
+</div>
+
+</body>
+</html>
